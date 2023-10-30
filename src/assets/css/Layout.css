@@ -1,0 +1,13 @@
+.main__container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.router__area {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f2f5;
+}

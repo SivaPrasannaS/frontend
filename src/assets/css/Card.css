@@ -1,0 +1,20 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  user-select: none;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: last baseline;
+}
+
+.title {
+  font-size: 1rem;
+}
+
+.count {
+  font-size: 3rem;
+}

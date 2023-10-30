@@ -1,0 +1,124 @@
+.form__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: url("../images/bg-registration-form.jpeg") no-repeat center/cover;
+  user-select: none;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 850px;
+  height: 590px;
+  background: url("../images/registration-form.jpeg") no-repeat center/cover;
+}
+
+.form__field {
+  width: 425px;
+  height: 475px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #333333;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.input__field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: last baseline;
+  margin-bottom: 10px;
+}
+
+.input__label,
+.forgot__pwd,
+.new__user,
+.login__user {
+  color: #666666;
+  font-size: 13px;
+  text-align: start;
+  text-decoration: none;
+}
+
+.input__label {
+  margin-bottom: 5px;
+}
+
+.forgot__pwd {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 350px;
+  height: 35px;
+  outline: none;
+  border: 0.3px solid #333333;
+  border-radius: 20px;
+  text-align: justify;
+  caret-color: #333333;
+  padding-left: 15px;
+}
+
+input:focus {
+  border: 1px solid #333333;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+.login__btn {
+  width: 150px;
+  height: 35px;
+  color: #333333;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 1px 0px;
+  font-size: 13px;
+  text-align: center;
+  line-height: normal;
+  letter-spacing: normal;
+  border-radius: 20px;
+  border: 1px solid #ae3c33;
+  cursor: pointer;
+}
+
+.login__btn:hover {
+  color: #ffffff;
+  background-color: #ae3c33;
+  transition: 0.3s ease-in;
+}
+
+.new__user {
+  margin-top: 10px;
+}
+
+.forgot__pwd__link,
+.new__user__link,
+.login__user__link {
+  color: #666666;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.forgot__pwd__link:hover,
+.new__user__link:hover,
+.login__user__link:hover {
+  color: #ae3c33;
+}
+
+.checkbox {
+  margin-bottom: 10px;
+}
